@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeTravel App Mobile</string>
+    <string name="home">Home</string>
+    <string name="fav_location_address">Location Address</string>
+</resources>
