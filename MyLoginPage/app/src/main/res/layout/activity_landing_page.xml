@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingPage"
+    android:background="@color/BackgroundLandingPage">
+
+    <ImageView
+        android:id="@+id/ivIllust1"
+        android:layout_width="163dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_illustration_pria_travel" />
+
+    <ImageView
+        android:id="@+id/ivIllust2"
+        android:layout_width="175dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toStartOf="@+id/ivIllust1"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_illustration_perempuan_travel" />
+
+    <TextView
+        android:id="@+id/tvTittleLandingPage"
+        android:layout_width="330dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/sedgwickavedisplay_regular"
+        android:text="Come On Vacation"
+        android:textColor="#FFFFFF"
+        android:textSize="46sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="casual"
+        android:justificationMode="inter_word"
+        android:text="Holidays are not only to relax the body and soul, with holidays will eliminate negative thoughts that continue to overwork."
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_exploreNow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_exploreNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="163dp"
+        android:background="@drawable/custom_btn_explorenow"
+        android:text="Explore Now"
+        android:fontFamily="@font/sansitaone"
+        android:textAllCaps="false"
+        android:textColor="#FFBB0D"
+        android:textSize="34sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
