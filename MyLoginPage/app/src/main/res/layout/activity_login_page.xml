@@ -63,13 +63,13 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btn_SignIn"
+        android:id="@+id/btnSignIn"
         android:layout_width="266dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="140dp"
+        android:layout_marginEnd="144dp"
         android:background="@drawable/custom_signinbutton"
-        android:text="Sign In"
         android:fontFamily="@font/prata_regular"
+        android:text="Sign In"
         android:textAllCaps="false"
         android:textColor="#FFFF"
         android:textSize="30sp"
